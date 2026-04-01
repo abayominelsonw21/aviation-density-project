@@ -1,0 +1,12 @@
+# Ignore Environment Variables
+.env
+
+# Ignore the Virtual Environment
+venv/
+
+# Ignore Local Delta Lake Data (Never push big databases to GitHub)
+data/
+
+# Ignore Jupyter Checkpoints
+.ipynb_checkpoints/
+__pycache__/
